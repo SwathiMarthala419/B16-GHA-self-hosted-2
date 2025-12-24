@@ -1,0 +1,9 @@
+name: First GHA TEST 2
+on:
+  push
+jobs:
+  B16-first-job:
+    runs-on: self-hosted
+    steps:
+      - name: message
+        run: echo "Welcome to GHA(self-hosted) by batch16 champs"
